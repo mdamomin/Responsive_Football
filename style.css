@@ -1,0 +1,130 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* common css */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+h1, h2,p{
+    margin: 0;
+}
+.container{
+    width: 1080px;
+    margin: 70px auto;
+}
+
+/* Top section css */
+.top_part {
+    display: flex;
+    align-items: center;
+    background: #2D25A0;
+    color: #fff;
+    padding: 135px 0 86px 0;
+}
+.top_left {
+    margin-left: 156px;
+    width: 485px;
+}
+.top_left h1{
+font-size: 64px;
+font-weight: 700;
+line-height: 80px;
+}
+.btn{
+    width: 168px;
+    height: 44px;
+    background: #E02C6D;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 38px;
+}
+.top_right {
+    margin-left: 102px;
+    width: 556.01px;
+    height: 438px;
+}
+.top_right img{
+    height: 100%;
+    width: 100%;   
+}
+
+/* Article section css */
+.article_part{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.single_article {
+    box-shadow: 1px 1px 20px 19px whitesmoke;
+    margin-right: 30px;
+    margin-bottom: 27px;
+}
+.single_article_content {
+    padding: 15px;
+}
+.single_article img {
+    width: 300px;
+    height: 256px;
+}
+.article_text h2 {
+    margin: 16px 0 10px 0;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.article_text p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+/* HighLight section start */
+.Highlight_part {
+    display: flex;
+    align-items: center;
+}
+.Highlight_left h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+.Highlight_right {
+    margin-left: 69px;
+}
+.Highlight_right img{
+    width: 567px;
+    height: 427px;
+}
+
+/* footer section css */
+.footer_part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social_icons {
+    display: flex;
+}
+.social_icons i {
+    width: 32px;
+    height: 32px;
+    background: gray;
+    border-radius: 50%;
+    margin-left: 3px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footer_part img {
+    width: 483px;
+}
+
+
